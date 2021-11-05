@@ -342,7 +342,7 @@ h3 {
 
 .work-item {
   display: flex;
-  justify-content: center;
+  justify-content: flex-start;
   flex-direction: column;
   width: 100%;
   align-items: center;
@@ -365,6 +365,22 @@ h3 {
 
 .heading-work h2 {
   text-align: center;
+}
+
+.work-item p {
+  text-align: center;
+}
+
+.mywork-content {
+  margin-top: 20px;
+}
+
+.mywork-content span {
+  font-weight: 800;
+}
+
+.mywork-content p a {
+  text-decoration: underline;
 }
 
 .heading-work span {
@@ -408,6 +424,10 @@ h4 {
   color: #fff;
   margin: 0;
   line-height: 100%;
+}
+
+.row-content p span {
+  font-weight: 800;
 }
 
 .row.yellow h4 {
@@ -777,8 +797,8 @@ form button {
   margin-right: 50px;
 }
 
-.behance {
-  color: #053eff;
+.linkedin {
+  color: #0e76a8;
 }
 
 .top-margin-hero {
@@ -1885,7 +1905,7 @@ form button {
     margin: 0 10px;
   }
 
-  .behance {
+  .linkedin {
     margin: 0 10px;
   }
 }
